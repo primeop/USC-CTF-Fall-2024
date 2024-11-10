@@ -16,3 +16,7 @@ My Results: Proud to have achieved 2nd place among USC students in a fiercely co
 
 
 ![image](https://github.com/user-attachments/assets/b90a26a3-4d16-47d8-9ea1-3bf7bf2e5173)
+
+This challenge provides an overview of the CTF details and includes a flag.txt file, which contains the flag in plain text.
+
+**CYBORG{lets_go}**
