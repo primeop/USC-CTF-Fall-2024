@@ -31,7 +31,7 @@ This challenge provides an overview of the CTF details and includes a flag.txt f
 
 ### Summary
 
-These challenges covered a variety of basic cybersecurity techniques, from decoding layered ciphers to analyzing network traffic and reverse engineering executables. This write-up details the tools and steps taken for each solution, serving as a practical guide for similar CTF challenges.
+These challenges encompassed a wide range of cybersecurity techniques, including decoding layered ciphers, intercepting and analyzing web and network traffic, reverse engineering executables, and utilizing various interesting tools. This write-up outlines the tools and methods used to solve each challenge, providing a practical guide for tackling similar CTF challenges.
 
 --- 
 
