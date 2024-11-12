@@ -35,14 +35,39 @@ These challenges covered a variety of basic cybersecurity techniques, from decod
 
 --- 
 
-**Tools Used**:
-- [CyberChef](https://gchq.github.io/CyberChef/) for decoding multiple layers.
-- [Wireshark](https://www.wireshark.org/) for network traffic analysis.
-- [Ghidra](https://ghidra-sre.org/) for binary analysis.
-  
+---
 
+## **Tools Used:**
 
-This was a fun, challenging experience, and I learned a lot from working on each puzzle. Looking forward to the next competition! 
+### **Cryptography**
+- **CyberChef** for decoding Base64, hex, and binary.
+- **Dcode** for cryptography-related tools.
+- **Python** for custom scripts and conversions.
+
+### **Reversing**
+- **Binary Ninja** for static binary analysis.
+- **Ghidra** for decompiling and analyzing executable files.
+- **IDA Pro** for deep static analysis of binaries.
+- **x64dbg** for dynamic debugging and reverse engineering.
+
+### **Web Exploitation**
+- **Burp Suite** for intercepting WebSocket traffic and manipulating requests.
+- **Wireshark** for network traffic analysis and inspecting communication between client and server.
+- **WebSocket Proxying** for monitoring and analyzing WebSocket traffic.
+
+### **Forensics**
+- **Autopsy** for file system analysis and forensic investigations.
+- **Volatility** for memory analysis.
+- **FTK Imager** for creating disk images for analysis.
+
+### **Miscellaneous**
+- **Python** for scripting and automating tasks across various challenges.
+- **VirtualBox** for setting up isolated environments.
+- **Git** for version control and collaboration.
+
+---
+
+These tools were essential in helping to analyze, reverse, and exploit various aspects of each challenge, and they contributed to the overall success in solving the puzzles. Looking forward to using them again in future competitions!
 
 ---
 
