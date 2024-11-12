@@ -1,6 +1,3 @@
-Here’s a well-organized and formatted solution for the **Cryptography** category on GitHub:
-
----
 
 ## **Cryptography Challenges**
 
