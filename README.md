@@ -14,8 +14,8 @@ This weekend, I competed in the USC Fall CTF. Although I couldn’t spend as muc
 - **Forensics**: weirdtraffic, think_twice, pineapple, Computer Has Virus
 - **OSINT**: beer sales, TommyCam, Buildings, television
 - **Cryptography**: colors, decipherium
-- **Web**: iRobots
-- **Reversing**: concoction
+- **Web Exploitation**: iRobots, Tic TAc Tocket
+- **Reverse Engineering**: concoction
 - **Miscellaneous**: Redwoods
 
 ---
