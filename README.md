@@ -36,6 +36,79 @@ This weekend, I competed in the USC Fall CTF. Although I couldn’t spend as muc
 
 ---
 
+Here's a refined write-up for your GitHub, formatted and explained step-by-step for each challenge in a beginner-friendly way.
+
+---
+
+# Beginner CTF Write-Up
+
+This repository contains solutions to beginner-level challenges from the USC CTF Fall 2024 event. Each challenge involved different aspects of cybersecurity, including cryptography, forensics, web exploitation, and reverse engineering. Here's a breakdown of how each challenge was solved.
+
+---
+
+## 1. Colors (Crypto)
+
+**Challenge Description**: We were provided with a `message.txt` file containing an encoded string.
+
+### Solution Steps:
+1. **Analyze Encoding**: The encoded string initially appeared as Base64. Using [CyberChef](https://gchq.github.io/CyberChef/), I decoded it, revealing a new encoding in Hex.
+2. **Decode Hex**: The Hex output was further decoded, resulting in Binary.
+3. **Decode Binary**: Finally, I converted the Binary string to reveal the plaintext message.
+
+**Flag**: `CYBORG{tR0jans_love_C4rdinal_@nd_G0ld}`
+
+---
+
+## 2. Weird Traffic (Forensics)
+
+**Challenge Description**: A `weirdtraffic.pcapng` file was given, capturing network traffic that seemed unusual. The goal was to analyze the file for hidden data.
+
+### Solution Steps:
+1. **Open in Wireshark**: I opened the `weirdtraffic.pcapng` file in Wireshark.
+2. **Inspect ICMP Packets**: By carefully examining each ICMP packet, I discovered the flag embedded in the details of packet number 21.
+
+**Flag**: `CYBORG{hping3-is-a-cool-tool}`
+
+---
+
+## 3. iRobots (Web)
+
+**Challenge Description**: We were presented with a website requiring a password. The hint was in the challenge name, "iRobots."
+
+### Solution Steps:
+1. **Check /robots.txt**: Since the name hinted at "robots," I checked the `/robots.txt` file of the website. This file often contains hidden paths that are restricted or disallowed.
+2. **Locate Flag**: Inside `/robots.txt`, I found a disallowed path: `/hidden/flag.txt`. Navigating to `https://usc-irobots.chals.io/hidden/flag.txt` revealed the flag in plain text.
+
+**Flag**: `CYBORG{robots_txt_is_fun}`
+
+---
+
+## 4. Concoction (Reverse Engineering)
+
+**Challenge Description**: We were given a binary file named `concoction`. The goal was to reverse-engineer it and find the flag.
+
+### Solution Steps:
+1. **Analyze in Ghidra**: I loaded the binary into [Ghidra](https://ghidra-sre.org/), a reverse engineering tool, to inspect its contents.
+2. **Identify the Flag Format**: In the `main` function, I found the start of the flag (`CYBORG{RECIPE=`) in the strings section.
+3. **Decode Values**: By scrolling through the main function, I found values being compared to construct the rest of the flag. Converting these values manually and entering them revealed the complete flag.
+
+**Flag**: `CYBORG{RECIPE=7914-111100-2310-51337-42154142-9111-decompiler}`
+
+---
+
+### Summary
+
+These challenges covered a variety of basic cybersecurity techniques, from decoding layered ciphers to analyzing network traffic and reverse engineering executables. This write-up details the tools and steps taken for each solution, serving as a practical guide for similar CTF challenges.
+
+--- 
+
+**Tools Used**:
+- [CyberChef](https://gchq.github.io/CyberChef/) for decoding multiple layers.
+- [Wireshark](https://www.wireshark.org/) for network traffic analysis.
+- [Ghidra](https://ghidra-sre.org/) for binary analysis.
+  
+Each tool was invaluable in decoding, dissecting, and analyzing the challenges, offering insights into basic yet fundamental cybersecurity skills. Happy hacking!
+
 ### Forensics
 
 #### **weirdtraffic**
