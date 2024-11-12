@@ -34,31 +34,6 @@ This weekend, I competed in the USC Fall CTF. Although I couldn’t spend as muc
 - **Reversing**: concoction
 - **Miscellaneous**: Redwoods
 
-Let’s dive into the solutions for each challenge!
- Colors (Crypto)
-Encoded File: The message was encoded as a Base64 string.
-Decoding Process:
-Step 1: Decode Base64 to reveal a Hex-encoded output.
-Step 2: Decode Hex, resulting in a Binary-encoded output.
-Step 3: Decode Binary to get the plaintext flag.
-Flag: CYBORG{tR0jans_love_C4rdinal_@nd_G0ld}
-Weird Traffic (Forensics)
-File: The weirdtraffic.pcapng file contained ICMP traffic.
-Analysis:
-Method: Inspected the packets in the pcapng file, focusing on packet number 21, where the flag was embedded within the packet details.
-Flag: CYBORG{hping3-is-a-cool-tool}
-iRobots (Web)
-Approach:
-/robots.txt Insight: Accessed the /robots.txt file, which hinted at a hidden path: /hidden/flag.txt.
-Result: Navigating to https://usc-irobots.chals.io/hidden/flag.txt revealed the flag in plain text.
-Flag: CYBORG{robots_txt_is_fun}
-Concoction (Reverse Engineering)
-File: Downloaded and analyzed the concoction executable in Ghidra.
-Process:
-Main Function Analysis: Identified the initial part of the flag (CYBORG{RECIPE=) in the strings.
-Decoding the Recipe: Observed the series of values the program compared to construct the complete flag.
-Outcome: Manually converted values and entered them to reveal the flag.
-Flag: CYBORG{RECIPE=7914-111100-2310-51337-42154142-9111-decompiler}
 ---
 
 ### Forensics
