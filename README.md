@@ -10,7 +10,7 @@ This year’s event featured a classic Jeopardy-style format, offering challenge
 
 This weekend, I competed in the USC Fall CTF. Although I couldn’t spend as much time on it as I’d have liked, I pushed through as many challenges as I could, securing runner up amongst USC students ! 😎
 
-### Challenges I Solved (Jump to Solutions):
+### Challenges I Solved :
 - **Forensics**: weirdtraffic, think_twice, pineapple, Computer Has Virus
 - **OSINT**: beer sales, TommyCam, Buildings, television
 - **Cryptography**: colors, decipherium
