@@ -4,15 +4,6 @@ This year’s event featured a classic Jeopardy-style format, offering challenge
 
 ![image](https://github.com/user-attachments/assets/4376c0b1-0e67-40c0-b854-98cec2d68a58)
 
-## Welcome challenge
-
-![image](https://github.com/user-attachments/assets/b90a26a3-4d16-47d8-9ea1-3bf7bf2e5173)
-
-This challenge provides an overview of the CTF details and includes a flag.txt file, which contains the flag in plain text.
-
-**CYBORG{lets_go}**
- Wow, sounds like you had a productive weekend with the USC Fall CTF! It’s fantastic to see such detailed write-ups for each challenge. Here's a refined version of your work that might help you share your experience more clearly:
-
 ---
 
 ## USC Fall CTF Write-up
@@ -28,9 +19,13 @@ This weekend, I competed in the USC Fall CTF. Although I couldn’t spend as muc
 - **Miscellaneous**: Redwoods
 
 ---
+## Welcome challenge
 
-Here's a refined write-up for your GitHub, formatted and explained step-by-step for each challenge in a beginner-friendly way.
+![image](https://github.com/user-attachments/assets/b90a26a3-4d16-47d8-9ea1-3bf7bf2e5173)
 
+This challenge provides an overview of the CTF details and includes a flag.txt file, which contains the flag in plain text.
+
+**CYBORG{lets_go}**
 ---
 
 # Beginner CTF Write-Up
