@@ -2,7 +2,7 @@ Here’s a well-structured solution for your **Reversing** category on GitHub:
 
 ---
 
-## **Reversing Challenges**
+## **Reverse Engineering Challenges**
 
 ### **concoction**
 - **Challenge**: An executable file (.exe) was provided, and the task involved reversing the code to obtain the flag. When executed, the program prompted for specific numbers.
