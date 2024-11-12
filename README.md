@@ -44,7 +44,7 @@ These challenges encompassed a wide range of cybersecurity techniques, including
 - **Dcode** for cryptography-related tools.
 - **Python** for custom scripts and conversions.
 
-### **Reversing**
+### **Reverse Engineering**
 - **Binary Ninja** for static binary analysis.
 - **Ghidra** for decompiling and analyzing executable files.
 - **IDA Pro** for deep static analysis of binaries.
